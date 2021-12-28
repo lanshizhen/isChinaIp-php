@@ -1,2 +1,6 @@
-# isChinaIp-php
-php 判断ip地址是否国内地址
+
+#update ip file
+cd ip
+./update_ip.sh
+#test
+php is_china.php 58.37.61.16
